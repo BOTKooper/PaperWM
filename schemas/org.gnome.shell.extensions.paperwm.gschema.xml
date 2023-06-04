@@ -403,6 +403,11 @@
         <summary>Duration of animations in seconds</summary>
     </key>
 
+    <key type="d" name="workspace-scroll-animation-time">
+        <default>0.25</default>
+        <summary>Duration of workspace scroll animations in seconds</summary>
+    </key>
+
     <key type="as" name="winprops">
         <default><![CDATA[[]]]></default>
         <summary>Array of winprops as (JSON) string objects</summary>

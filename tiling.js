@@ -2087,7 +2087,7 @@ var Spaces = class Spaces extends Map {
             let y = ((space.height + padding) * (i - to)) * scale;
             if (animate) {
                 Tweener.addTween(space.actor, {
-                    time: prefs.animation_time,
+                    time: prefs.workspace_scroll_animation_time,
                     y, scale_y: scale, scale_x: scale,
                 });
             } else {
